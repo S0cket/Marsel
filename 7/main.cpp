@@ -73,6 +73,11 @@ int main(void) {
 		cout << st[i] << " ";
 	cout << "\n";
 	cout << (st < 6) << (st < 1) << (st < 3) << endl;
+
+	Money m(2, 315), n(320), k;
+	m.print();
+	n.print();
+	k.print();
 	return 0;
 
 }
